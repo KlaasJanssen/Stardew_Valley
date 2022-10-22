@@ -211,7 +211,6 @@ class MainMenu:
             self.name = self.name_input.update()
 
             if self.start_game_button.detect_click():
-                print("check")
                 if len(self.name) > 0:
                     if self.display_overwrite:
                         for button in self.overwrite_buttons:
